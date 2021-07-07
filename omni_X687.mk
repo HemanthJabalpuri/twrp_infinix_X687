@@ -16,9 +16,6 @@
 # limitations under the License.
 #
 
-# Release Name
-PRODUCT_RELEASE_NAME := Infinix X687
-
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
@@ -32,6 +29,8 @@ PRODUCT_NAME := omni_X687
 PRODUCT_BRAND := Infinix
 PRODUCT_MODEL := X687
 PRODUCT_MANUFACTURER := infinix
+
+PRODUCT_SHIPPING_API_LEVEL := 29
 
 # Dynamic Partition
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
