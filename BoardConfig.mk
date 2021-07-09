@@ -18,6 +18,9 @@
 
 DEVICE_PATH := device/infinix/X687
 
+# For building with minimal manifest
+ALLOW_MISSING_DEPENDENCIES := true
+
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a
