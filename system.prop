@@ -1,3 +1,2 @@
 ro.adb.secure=0
-ro.hardware=mt6785
 ro.vendor.mediatek.platform=MT6785

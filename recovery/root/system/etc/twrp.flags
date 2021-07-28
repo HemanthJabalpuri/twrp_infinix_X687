@@ -14,7 +14,7 @@
 /logo            emmc      /dev/block/platform/bootdevice/by-name/logo        flags=backup
 /expdb           emmc      /dev/block/platform/bootdevice/by-name/expdb
 /seccfg          emmc      /dev/block/platform/bootdevice/by-name/seccfg
-/tranfs          ext4      /dev/block/platform/bootdevice/by-name/tranfs      flags=backup
+/tranfs          emmc      /dev/block/platform/bootdevice/by-name/tranfs      flags=backup
 /tkv             emmc      /dev/block/platform/bootdevice/by-name/tkv         flags=backup
 
 # IMEI and modem related
