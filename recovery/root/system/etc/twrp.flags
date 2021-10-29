@@ -9,7 +9,7 @@
 /tee1            emmc      /dev/block/platform/bootdevice/by-name/tee1        flags=backup
 /tee2            emmc      /dev/block/platform/bootdevice/by-name/tee2        flags=backup
 /persistent      emmc      /dev/block/platform/bootdevice/by-name/frp         flags=backup
-/bootloader      emmc      /dev/block/platform/bootdevice/by-name/lk          flags=backup;flashimg
+/bootloader      emmc      /dev/block/platform/bootdevice/by-name/lk          flags=display="LK";backup;flashimg
 /bootloader2     emmc      /dev/block/platform/bootdevice/by-name/lk2         flags=backup
 /logo            emmc      /dev/block/platform/bootdevice/by-name/logo        flags=backup
 /expdb           emmc      /dev/block/platform/bootdevice/by-name/expdb
