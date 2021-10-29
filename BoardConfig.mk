@@ -16,7 +16,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/infinix/X687
+DEVICE_PATH := device/infinix/X687B
 
 # Architecture
 TARGET_ARCH := arm64
@@ -66,7 +66,7 @@ BOARD_AVB_ENABLE := true
 BOARD_AVB_ROLLBACK_INDEX := $(PLATFORM_SECURITY_PATCH_TIMESTAMP)
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := Infinix-X687
+TARGET_OTA_ASSERT_DEVICE := Infinix-X687B
 
 # Partition
 BOARD_HAS_LARGE_FILESYSTEM := true
@@ -128,7 +128,7 @@ TW_Y_OFFSET := 120
 TW_H_OFFSET := -120
 
 # Exclude
-TW_EXCLUDE_TWRP_APP := true
+TW_EXCLUDE_TWRPAPP := true
 
 # Logcat
 TWRP_INCLUDE_LOGCAT := true

@@ -23,10 +23,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/base.mk)
 $(call inherit-product, vendor/omni/config/common.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := X687
-PRODUCT_NAME := omni_X687
+PRODUCT_DEVICE := X687B
+PRODUCT_NAME := omni_X687B
 PRODUCT_BRAND := Infinix
-PRODUCT_MODEL := X687
+PRODUCT_MODEL := X687B
 PRODUCT_MANUFACTURER := infinix
 
 PRODUCT_SHIPPING_API_LEVEL := 29
