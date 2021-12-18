@@ -8,6 +8,9 @@ on fs
     install_keyring
     setprop crypto.ready 1
 
+on boot
+    start health-hal-2-0
+
 service keystore_auth /system/bin/keystore_auth
     oneshot
     user system
