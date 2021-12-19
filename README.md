@@ -6,7 +6,7 @@
 - fastbootd
 
 ### Issues
-- loop mount errors with Android 11
+- Let me know if you find anything
 - USB OTG
 
 ### Specifications
